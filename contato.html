@@ -16,6 +16,32 @@
         <a href="./contato.html">Contato</a>
       </nav>
     </header>
+    <main>
+        <h1>Entre em Contato</h1>
+        <p>Vamos conversar sobre como podemos criar experiências únicas juntos. Entre em contato para orçamentos, parcerias ou dúvidas.</p>
+        <section>
+            <h2>Solicite um Orçamento</h2>
+            <form action="#" method="post">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" name="name" autocomplete="name"  placeholder="Digite seu nome" required>
+                <label for="tel">Telefone:</label>
+                <input type="tel" id="tel" name="tel" autocomplete="tel" placeholder="(xx) xxxx-xxxx" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" autocomplete="email" placeholder="Digite seu e-mail" required>
+                <label for="tipo">Tipo de Serviço:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="">Selecione</option>
+                    <option value="orcamento">Terceirização de Café da Manhã</option>
+                    <option value="parceria">Parcerias</option>
+                    <option value="duvida">Encomendas para festa</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Conte-nos mais sobre seu projeto ou necessidade..." required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
     
 </body>
 </html>
